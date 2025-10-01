@@ -22,6 +22,7 @@ http://<your-ec2-public-ip>:5000
 ```
 
 🚧 Setup Instructions
+
 🔹 1. Clone the Repo
 ```
 git clone https://github.com/your-username/dockerized-webapp-aws-deploy.git
