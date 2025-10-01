@@ -19,16 +19,20 @@ Once deployed, the app runs on:
 
 ```bash
 http://<your-ec2-public-ip>:5000
-
+```
 
 🚧 Setup Instructions
 🔹 1. Clone the Repo
+```
 git clone https://github.com/your-username/dockerized-webapp-aws-deploy.git
 cd dockerized-webapp-aws-deploy
+```
 
 🔹 2. Run App Locally with Docker
+```
 docker build -t flask-app .
 docker run -p 5000:5000 flask-app
+```
 
 
 Visit: http://localhost:5000
@@ -66,12 +70,11 @@ chmod +x deploy.sh
 
 Or use cloud-init during EC2 launch.
 
-## 📸 Screenshots
+📸 Screenshots
 
-All required screenshots are available in the following PDF:
+All screenshots for this assignment are available here:
 
-📄 [View Screenshot PDF](docs/DevOps-Intern-Screenshots.pdf)
-
+📁 Google Drive – DevOps Assignment Screenshots
 
 Contents:
 
@@ -93,9 +96,9 @@ App running via public IP
 
 ✍️ Author
 
-Jagruti Chaudhari
+Your Name
 DevOps Intern Assignment — 2025
-GitHub: @jagruti768
+GitHub: @yourusername
 
 📜 License
 
