@@ -100,9 +100,9 @@ Contents:
 
 ✍️ Author
 
-Jagruti Chaudhari
-DevOps Intern Assignment — 2025
-GitHub: @jagruti768
+Jagruti Chaudhari  
+DevOps Intern Assignment — 2025  
+GitHub: @jagruti768  
 
 📜 License
 
