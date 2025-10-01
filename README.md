@@ -77,7 +77,7 @@ Or use cloud-init during EC2 launch.
 
 All required screenshots are available in the following PDF:
 
-📄 [View Screenshot PDF](docs/DevOps-Intern-Screenshots.pdf)
+📄 [View Screenshot PDF](docs/IP_LabJournal.pdf)
 
 
 Contents:
