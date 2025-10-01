@@ -72,29 +72,31 @@ chmod +x deploy.sh
 
 Or use cloud-init during EC2 launch.
 
-📸 Screenshots
 
-All screenshots for this assignment are available here:
+## 📸 Screenshots
 
-📁 Google Drive – DevOps Assignment Screenshots
+All required screenshots are available in the following PDF:
+
+📄 [View Screenshot PDF](docs/DevOps-Intern-Screenshots.pdf)
+
 
 Contents:
 
-App running locally in Docker
+- App running locally in Docker
 
-EC2 dashboard
+- EC2 dashboard
 
-SSH terminal session
+- SSH terminal session
 
-App running via public IP
+- App running via public IP
 
 ✅ Bonus (Optional Features)
 
- IAM role to access S3 from EC2
+ - IAM role to access S3 from EC2
 
- cloud-init script for automated provisioning
+ - cloud-init script for automated provisioning
 
- Shell script (deploy.sh) to auto-setup app
+ - Shell script (deploy.sh) to auto-setup app
 
 ✍️ Author
 
