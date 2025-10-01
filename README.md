@@ -40,19 +40,19 @@ Visit: http://localhost:5000
 
 🔹 3. Launch and Configure EC2
 
-Launch a t2.micro EC2 instance
+- Launch a t2.micro EC2 instance
 
-OS: Amazon Linux 2 or Ubuntu
+- OS: Amazon Linux 2 or Ubuntu
 
-Open ports: 22, 5000 in the security group
+- Open ports: 22, 5000 in the security group
 
-SSH into EC2:
-
+- SSH into EC2:
+```
 ssh -i your-key.pem ec2-user@your-ec2-ip
+```
 
-
-Install Docker and run the app:
-
+- Install Docker and run the app:
+```
 sudo yum update -y
 sudo yum install docker git -y
 sudo service docker start
@@ -63,11 +63,12 @@ git clone https://github.com/your-username/dockerized-webapp-aws-deploy.git
 cd dockerized-webapp-aws-deploy
 docker build -t flask-app .
 docker run -p 5000:5000 flask-app
-
+```
 🔹 4. Bonus: Use deploy.sh (Optional)
+```
 chmod +x deploy.sh
 ./deploy.sh
-
+```
 
 Or use cloud-init during EC2 launch.
 
@@ -97,9 +98,9 @@ App running via public IP
 
 ✍️ Author
 
-Your Name
+Jagruti Chaudhari
 DevOps Intern Assignment — 2025
-GitHub: @yourusername
+GitHub: @jagruti768
 
 📜 License
 
