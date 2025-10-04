@@ -92,13 +92,6 @@ Contents:
 
 - App running via public IP
 
-✅ Bonus (Optional Features)
-
- - IAM role to access S3 from EC2
-
- - cloud-init script for automated provisioning
-
- - Shell script (deploy.sh) to auto-setup app
 
 ✍️ Author
 
