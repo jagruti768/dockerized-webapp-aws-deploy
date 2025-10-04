@@ -6,8 +6,9 @@ A simple Flask-based web app that is Dockerized and deployed on an AWS EC2 insta
 
 ## 📁 Repository Contents
 
-- `app.py`: Flask application
-- `Dockerfile`: Docker setup for the app
+- `flash-app`
+   - `app.py`: Flask application
+   - `Dockerfile`: Docker setup for the app
 - `docs`: Folder containing a PDF file with output screenshots for the assignment
 - `deploy.sh`: Shell script to automate setup on EC2
 - `README.md`: Documentation (you are here)
