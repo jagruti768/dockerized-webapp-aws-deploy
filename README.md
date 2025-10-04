@@ -66,20 +66,12 @@ cd dockerized-webapp-aws-deploy
 docker build -t flask-app .
 docker run -p 5000:5000 flask-app
 ```
-🔹 4. Bonus: Use deploy.sh (Optional)
-```
-chmod +x deploy.sh
-./deploy.sh
-```
-
-Or use cloud-init during EC2 launch.
-
 
 ## 📸 Screenshots
 
 All required screenshots are available in the following PDF:
 
-📄 [View Screenshot PDF](docs/IP_LabJournal.pdf)
+📄 [View Screenshot PDF](docs/DevOps-Intern-Assignment_Screenshots_Jagruti-Chaudhari.pdf)
 
 
 Contents:
